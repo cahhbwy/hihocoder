@@ -11,11 +11,7 @@ unsigned int kmp(string source, string mode) {
 		if (j == -1 || mode[j] == mode[i]) {
 			++i;
 			++j;
-			if (mode[j] != mode[i]) {
-				next[i] = j;
-			} else {
-				next[i] = next[j];
-			}
+			next[i] = j;
 		} else {
 			j = next[j];
 		}
@@ -35,7 +31,9 @@ unsigned int kmp(string source, string mode) {
 		if (j == modelength) {
 			++count;
 			if (i < sourcelength) {
-				i -= modelength - 1;
+				if (modelength > 1) {
+					--i;
+				}
 				j = next[j - 1];
 				j = (j < 0 ? 0 : j);
 			}
