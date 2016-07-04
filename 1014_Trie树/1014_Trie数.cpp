@@ -7,7 +7,7 @@ typedef struct Trie{
 	char c;
 	int count;
 	vector<struct Trie *> child;
-}Trie;
+};
 
 Trie *root;
 void initial(){

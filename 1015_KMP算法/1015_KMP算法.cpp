@@ -20,11 +20,10 @@ unsigned int kmp(string source, string mode) {
 			j = next[j];
 		}
 	}
-	int pos = 0;
+	i = 0;
+	j = 0;
 	int count = 0;
-	while (true) {
-		i = pos;
-		j = 0;
+	while (i < sourcelength) {
 		while (i < sourcelength && j < modelength) {
 			if (j == -1 || source[i] == mode[j]) {
 				++i;
@@ -33,15 +32,13 @@ unsigned int kmp(string source, string mode) {
 				j = next[j];
 			}
 		}
-		if (j >= (int)modelength) {
+		if (j == modelength) {
 			++count;
-			pos = i - modelength + 2;
-			//			return i - mode.size() + 1;
-			if (pos > sourcelength)
-				break;
-		} else {
-			break;
-			//			return -1;
+			if (i < sourcelength) {
+				i -= modelength - 1;
+				j = next[j - 1];
+				j = (j < 0 ? 0 : j);
+			}
 		}
 	}
 	return count;
@@ -49,14 +46,10 @@ unsigned int kmp(string source, string mode) {
 int main(int argc, char** argv) {
 	int n;
 	cin >> n;
-	string *source = new string[n];
-	string *mode = new string[n];
 	for (int i = 0; i < n; ++i) {
-		cin >> mode[i];
-		cin >> source[i];
-	}
-	for (int i = 0; i < n; ++i) {
-		cout << kmp(source[i], mode[i]) << endl;
+		string source, mode;
+		cin >> mode >> source;
+		cout << kmp(source, mode) << endl;
 	}
 	return 0;
 }
