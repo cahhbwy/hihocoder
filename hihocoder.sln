@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1014_Trie树", "1014_Trie�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1015_KMP算法", "1015_KMP算法\1015_KMP算法.vcxproj", "{B14917EE-3546-4778-9B80-AD3A7E52AF2A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1032_最长回文子串", "1032_最长回文子串\1032_最长回文子串.vcxproj", "{BBB45FD2-B913-407A-BBAB-1113B821CAD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0000_temp", "0000_temp\0000_temp.vcxproj", "{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +25,14 @@ Global
 		{B14917EE-3546-4778-9B80-AD3A7E52AF2A}.Debug|Win32.Build.0 = Debug|Win32
 		{B14917EE-3546-4778-9B80-AD3A7E52AF2A}.Release|Win32.ActiveCfg = Release|Win32
 		{B14917EE-3546-4778-9B80-AD3A7E52AF2A}.Release|Win32.Build.0 = Release|Win32
+		{BBB45FD2-B913-407A-BBAB-1113B821CAD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBB45FD2-B913-407A-BBAB-1113B821CAD0}.Debug|Win32.Build.0 = Debug|Win32
+		{BBB45FD2-B913-407A-BBAB-1113B821CAD0}.Release|Win32.ActiveCfg = Release|Win32
+		{BBB45FD2-B913-407A-BBAB-1113B821CAD0}.Release|Win32.Build.0 = Release|Win32
+		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Debug|Win32.Build.0 = Debug|Win32
+		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Release|Win32.ActiveCfg = Release|Win32
+		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
