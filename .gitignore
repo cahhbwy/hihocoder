@@ -189,5 +189,3 @@ _Pvt_Extensions/
 ModelManifest.xml
 
 0000_temp/
-*.vcxproj.filters
-*.vcxproj
