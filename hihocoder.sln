@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1032_最长回文子串", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0000_temp", "0000_temp\0000_temp.vcxproj", "{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1033_Alternating Sums", "1033_Alternating Sums\1033_Alternating Sums.vcxproj", "{1FCEA2F5-98DB-41BF-8583-82D4931197EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Debug|Win32.Build.0 = Debug|Win32
 		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Release|Win32.ActiveCfg = Release|Win32
 		{4A35D6D7-0191-4B8D-8271-B2279D6CB7CA}.Release|Win32.Build.0 = Release|Win32
+		{1FCEA2F5-98DB-41BF-8583-82D4931197EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FCEA2F5-98DB-41BF-8583-82D4931197EB}.Debug|Win32.Build.0 = Debug|Win32
+		{1FCEA2F5-98DB-41BF-8583-82D4931197EB}.Release|Win32.ActiveCfg = Release|Win32
+		{1FCEA2F5-98DB-41BF-8583-82D4931197EB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
